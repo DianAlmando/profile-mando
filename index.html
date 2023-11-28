@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/021f3eb1da35b2a042907dc870c00b9c?family=TwentiethCenturyW01-XBdCn"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/stylesheet/app.css" />
+    <link rel="stylesheet" href="assets/stylesheet/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css"
+    />
+    <title>Profile</title>
+  </head>
+
+  <body>
+    <ul class="nav justify-content-center bg-light fixed-top">
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#"> -->
+        <a
+          class="buttonToggle"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+          ><i class="fas fa-bars toggleSlide"></i
+        ></a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+              Please select a menu :
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li>
+                <a class="nav-link" href="#Biodata">About Me</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Achievements">Experience</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Projects">Organization</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Certifications">Certifications</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- </a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link initial" href="#" aria-current="page"></a>
+      </li>
+
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Biodata">About Me</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Achievements">Experience</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Projects">Organization</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Certifications">Certifications</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+    <div class="all-body-cover">
+      <img
+        width="280px"
+        src="assets/img/profileImage.jpg"
+        class="img-thumbnail rounded-circle mx-auto d-block"
+        alt="..."
+      />
+      <div class="nama">
+        <h4 class="text-center fw-bold">Dian Almando Nurcahyo</h4>
+        <h5 class="text-center">Automation Engineering</h5>
+      </div>
+
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+        .path-0{
+          animation:pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0{
+          0%{
+            d: path("M 0,400 C 0,400 0,200 0,200 C 145.92857142857144,170.78571428571428 291.8571428571429,141.57142857142858 410,138 C 528.1428571428571,134.42857142857142 618.5000000000001,156.49999999999997 741,185 C 863.4999999999999,213.50000000000003 1018.1428571428571,248.42857142857144 1140,252 C 1261.857142857143,255.57142857142856 1350.9285714285716,227.78571428571428 1440,200 C 1440,200 1440,400 1440,400 Z");
+          }
+          25%{
+            d: path("M 0,400 C 0,400 0,200 0,200 C 111.21428571428572,153.60714285714286 222.42857142857144,107.21428571428572 325,129 C 427.57142857142856,150.78571428571428 521.5000000000001,240.75000000000003 662,245 C 802.4999999999999,249.24999999999997 989.5714285714287,167.78571428571428 1127,146 C 1264.4285714285713,124.21428571428572 1352.2142857142858,162.10714285714286 1440,200 C 1440,200 1440,400 1440,400 Z");
+          }
+          50%{
+            d: path("M 0,400 C 0,400 0,200 0,200 C 94.75,213.85714285714286 189.5,227.71428571428572 314,245 C 438.5,262.2857142857143 592.75,283 735,269 C 877.25,255 1007.5,206.2857142857143 1123,189 C 1238.5,171.7142857142857 1339.25,185.85714285714283 1440,200 C 1440,200 1440,400 1440,400 Z");
+          }
+          75%{
+            d: path("M 0,400 C 0,400 0,200 0,200 C 107.60714285714289,175.25 215.21428571428578,150.5 316,158 C 416.7857142857142,165.5 510.7499999999998,205.25 657,214 C 803.2500000000002,222.75 1001.7857142857144,200.49999999999997 1141,193 C 1280.2142857142856,185.50000000000003 1360.1071428571427,192.75 1440,200 C 1440,200 1440,400 1440,400 Z");
+          }
+          100%{
+            d: path("M 0,400 C 0,400 0,200 0,200 C 145.92857142857144,170.78571428571428 291.8571428571429,141.57142857142858 410,138 C 528.1428571428571,134.42857142857142 618.5000000000001,156.49999999999997 741,185 C 863.4999999999999,213.50000000000003 1018.1428571428571,248.42857142857144 1140,252 C 1261.857142857143,255.57142857142856 1350.9285714285716,227.78571428571428 1440,200 C 1440,200 1440,400 1440,400 Z");
+          }
+        }</style><path d="M 0,400 C 0,400 0,200 0,200 C 145.92857142857144,170.78571428571428 291.8571428571429,141.57142857142858 410,138 C 528.1428571428571,134.42857142857142 618.5000000000001,156.49999999999997 741,185 C 863.4999999999999,213.50000000000003 1018.1428571428571,248.42857142857144 1140,252 C 1261.857142857143,255.57142857142856 1350.9285714285716,227.78571428571428 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ffffff" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
+
+      <div class="firstContainer">
+        <div class="content">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="800"
+            id="Biodata"
+            class="nameHeading fw-bold"
+          >
+            About Me
+          </h2>
+          <div class="container text-center">
+            <div class="row">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                Hello, introduce my name is Dian Almando Nurcahyo who is
+                often called Mando. I am a 21 year old male who was born from Kediri, East Java. I am a fresh graduate of Automation Engineering from Politeknik Perkapalan Negeri Surabaya with a 3,47.
+                I am currently looking for a job to apply my skills and improve them and learn new skills.
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+              <p class="startEnd"> </p>
+                <!-- <h4 class="subNameHeading fw-bold"> </h4> -->
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">What is Automation Engineering ?</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                  About Automation Engineering
+                  </button>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal1"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h10 class="modal-title" id="exampleModalLabel">
+                            About Automation Engineering
+                          </h10>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Automation Engineering is the basic substance of Electronics Engineering with specialization in Automation Engineering. 
+                          Automation Engineering is an engineering field that focuses on the design, development, implementation, and maintenance of automated systems. 
+                          Automation systems include the use of software and automated equipment to control and monitor production processes, operations, and other systems.</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd"></p>
+                </p>
+                <p class="card-text">
+                  
+                </p>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <h8 class="subNameHeading fw-bold"> </h8>
+                  <p class="startEnd">Final Project as a Graduation Requirement ?</p>
+                  <button
+                    type="button"
+                    class="btn btn-primary itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    About My Final Project
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal2"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h10 class="modal-title" id="exampleModalLabel">
+                            About Final My Project
+                          </h10>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">The final project is a scientific work that must be prepared by students with the guidance of lecturers as a graduation requirement. In the final project in my study program, I am required to make a product or prototype related to my major.
+                          The title of my final project "Design and Build of Pipe Count Detection and Automatic Pipe Ejector Using Image Processing Based on Internet of Things".
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div 
+                data-aos="fade-up" 
+                data-aos-duration="800" 
+                class="col-sm-4"
+              >
+                I like to learn new things that I think are positive activities. One of them is trying to create my personal profile website. 
+                I learned to make this website by watching YouTube. 
+                I also have several soft and hard skills that I got during college, internships, organizations, training, and others.
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second -->
+    <div class="secondContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Achievements"
+        class="achive fw-bold"
+      >
+        EXPERIENCE
+      </h2>
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-sm-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 20rem"
+            >
+              <div class="card-header">sDGs Desa</div>
+              <div class="card-body">
+                <h5 class="card-title">Collect and Entry Data</h5>
+                <p class="card-text">
+                  Participating in briefing and socialization activities of the Village SDGs program from the local government.
+                </p>
+                <p class="card-text">
+                  Collecting data and information on each family and community to fill in the family and community questionnaires.
+                </p>
+                <p class="card-text">
+                  Visiting and interviewing each family and community to fill out the family and community questionnaires.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 20rem"
+            >
+              <div class="card-header">CV. Sumber Pangan</div>
+              <div class="card-body">
+                <h5 class="card-title">Project Division</h5>
+                <p class="card-text">
+                  Drafted a budget for the electrical components of the new factory to be built.
+                </p>
+                <p class="card-text">
+                  Recapitulate the electrical power in the rice drying process.
+                </p>
+                <p class="card-text">
+                  Checking electrical components that have just entered the warehouse.
+                </p>
+                <p class="card-text">
+                  Drawing wiring diagrams of direct on line and delta start circuits using AutoCAD.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 20rem"
+            >
+              <div class="card-header">CV. Elmech Technology</div>
+              <div class="card-body">
+                <h5 class="card-title">Electrical</h5>
+                <p class="card-text">
+                  Analyze the components needed in the tool to be made.
+                </p>
+                <p class="card-text">
+                  Arrange the circuit and wiring of sensor and actuator components according to the design.
+                </p>
+                <p class="card-text">
+                  Checking the circuit and wiring is installed or connected correctly.
+                </p>
+                <p class="card-text">
+                  Creating a website display for monitoring by using bootsrap.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+
+    <!-- third -->
+    
+    <div class="thirdContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Projects"
+        class="projects fw-bold"
+      >
+        ORGANIZATION
+      </h2>
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-bg-primary mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Sie Kerohanian Islam</div>
+              <div class="card-body">
+                <h5 class="card-title">Public Relations Department</h5>
+                <p class="card-text">
+                  Manage communication, promotion, and information related to spiritual and religious activities on campus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-bg-primary mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Marine Robotic Community</div>
+              <div class="card-body">
+                <h5 class="card-title">Secretary of Human Resources Development Department</h5>
+                <p class="card-text">
+                  Creating learning materials about basic electronic components and robotics. Making activity proposals and accountability reports for the PSDM division of UKM MRC.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-bg-primary mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Himpunan Mahasiswa Teknik Otomasi</div>
+              <div class="card-body">
+                <h5 class="card-title">Social and Community Department</h5>
+                <p class="card-text">
+                  Coordinate various activities related to social aspects, togetherness, and involvement of Automation Engineering students.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Autogreen</div>
+              <div class="card-body">
+                <h5 class="card-title">Event Leader</h5>
+                <p class="card-text">
+                  Planting activities in the yard as a form of concern for Automation Engineering Students for the environment and a form of commemoration of World Tree Day on 21 November 2021. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+      .path-0{
+        animation:pathAnim-0 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-0{
+        0%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 97.02392344497608,220.42105263157896 194.04784688995215,240.8421052631579 283,230 C 371.95215311004785,219.1578947368421 452.83253588516754,177.05263157894737 548,163 C 643.1674641148325,148.94736842105263 752.622009569378,162.94736842105266 846,171 C 939.377990430622,179.05263157894734 1016.6794258373207,181.1578947368421 1113,185 C 1209.3205741626793,188.8421052631579 1324.6602870813397,194.42105263157896 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        25%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 78.85167464114832,174.25837320574163 157.70334928229664,148.51674641148327 244,137 C 330.29665071770336,125.48325358851675 424.0382775119617,128.19138755980862 537,128 C 649.9617224880383,127.80861244019137 782.1435406698565,124.71770334928229 893,128 C 1003.8564593301435,131.2822966507177 1093.3875598086124,140.9377990430622 1181,154 C 1268.6124401913876,167.0622009569378 1354.3062200956938,183.5311004784689 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        50%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 111.38755980861242,208.2200956937799 222.77511961722485,216.4401913875598 328,203 C 433.22488038277515,189.5598086124402 532.2870813397129,154.45933014354068 612,153 C 691.7129186602871,151.54066985645932 752.0765550239236,183.7224880382775 848,185 C 943.9234449760764,186.2775119617225 1075.4066985645934,156.65071770334927 1180,154 C 1284.5933014354066,151.34928229665073 1362.2966507177034,175.67464114832535 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        75%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 107.27272727272728,190.9473684210526 214.54545454545456,181.89473684210523 302,177 C 389.45454545454544,172.10526315789477 457.0909090909091,171.36842105263162 560,166 C 662.9090909090909,160.63157894736838 801.090909090909,150.63157894736838 893,146 C 984.909090909091,141.36842105263162 1030.5454545454545,142.10526315789474 1114,152 C 1197.4545454545455,161.89473684210526 1318.7272727272727,180.94736842105263 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        100%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 97.02392344497608,220.42105263157896 194.04784688995215,240.8421052631579 283,230 C 371.95215311004785,219.1578947368421 452.83253588516754,177.05263157894737 548,163 C 643.1674641148325,148.94736842105263 752.622009569378,162.94736842105266 846,171 C 939.377990430622,179.05263157894734 1016.6794258373207,181.1578947368421 1113,185 C 1209.3205741626793,188.8421052631579 1324.6602870813397,194.42105263157896 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+      }</style><defs><linearGradient id="gradient" x1="39%" y1="1%" x2="61%" y2="99%"><stop offset="5%" stop-color="#ffffff"></stop><stop offset="95%" stop-color="#ffffff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 97.02392344497608,220.42105263157896 194.04784688995215,240.8421052631579 283,230 C 371.95215311004785,219.1578947368421 452.83253588516754,177.05263157894737 548,163 C 643.1674641148325,148.94736842105263 752.622009569378,162.94736842105266 846,171 C 939.377990430622,179.05263157894734 1016.6794258373207,181.1578947368421 1113,185 C 1209.3205741626793,188.8421052631579 1324.6602870813397,194.42105263157896 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path></svg>
+    <div class="fourthContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Certifications"
+        class="achive text-center fw-bold"
+      >
+        CERTIFICATION
+      </h2>
+      <div class="container">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="table-responsive"
+        >
+          <table class="table mx-auto table-borderless">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Name</th>
+                <th scope="col">Organizer</th>
+                <th scope="col">Date</th>
+                <th scope="col">Credential</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"></th>
+                <td>Industrial Automation with Engineer qualification</td>
+                <td>BNSP</td>
+                <td>20 March 2023</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/102qV-FeqdWg_Imx-DLn49GMQpp7pywLu/view?usp=sharing" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>Independent Entrepreneur Program Project Based Learning Technopreneurship</td>
+                <td>Kampus Merdeka</td>
+                <td>12 December 2022</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/1DTaCYe0jUHIOm9E3K8CDOG-ZtY0dZLR1/view?usp=sharing" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>Test of English Competency (TOEIC) with score 550</td>
+                <td>Politeknik Perkapalan Negeri Surabaya</td>
+                <td>7 June 2023</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/19RptwXHPELi-NvBUrnOkVjf3uxFQaT3X/view?usp=drive_link" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>Computer Courses and Training Organized with Microsoft 
+                  Word, Excel, and PowerPoint Skills</td>
+                <td>LKP Terra Computer System</td>
+                <td>25 April 2019</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/1m9IyZCcqEWBR39Yi3C7jDbkvUFmji5it/view?usp=drive_link" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>Completition English Learning Programme</td>
+                <td>Brilliant English Course</td>
+                <td>19 October 2023</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/1VGEtrQ2iLVNBchu_KucSipiwzw1gvZQH/view?usp=drive_link" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>Image Processing</td>
+                <td>Elmech Technology</td>
+                <td>7 April 2023</td>
+                <td>
+                  <a class="btn btn-light mx-info" href="https://drive.google.com/file/d/1DOzjjcLCMuEVsLSCbXqFLwhKdqH40_OS/view?usp=drive_link" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+      .path-0{
+        animation:pathAnim-0 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-0{
+        0%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 167.46666666666664,220.26666666666665 334.9333333333333,240.53333333333333 499,242 C 663.0666666666667,243.46666666666667 823.7333333333333,226.13333333333333 980,216 C 1136.2666666666667,205.86666666666667 1288.1333333333332,202.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        25%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 165.59999999999997,212.13333333333333 331.19999999999993,224.26666666666665 475,216 C 618.8000000000001,207.73333333333335 740.8,179.0666666666667 898,173 C 1055.2,166.9333333333333 1247.6,183.46666666666664 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        50%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 113.33333333333331,177.2 226.66666666666663,154.4 405,172 C 583.3333333333334,189.6 826.6666666666667,247.60000000000002 1010,259 C 1193.3333333333333,270.4 1316.6666666666665,235.2 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        75%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 179.19999999999993,223.73333333333335 358.39999999999986,247.46666666666667 534,243 C 709.6000000000001,238.53333333333333 881.6000000000001,205.86666666666667 1032,194 C 1182.3999999999999,182.13333333333333 1311.1999999999998,191.06666666666666 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        100%{
+          d: path("M 0,400 C 0,400 0,200 0,200 C 167.46666666666664,220.26666666666665 334.9333333333333,240.53333333333333 499,242 C 663.0666666666667,243.46666666666667 823.7333333333333,226.13333333333333 980,216 C 1136.2666666666667,205.86666666666667 1288.1333333333332,202.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+      }</style><path d="M 0,400 C 0,400 0,200 0,200 C 167.46666666666664,220.26666666666665 334.9333333333333,240.53333333333333 499,242 C 663.0666666666667,243.46666666666667 823.7333333333333,226.13333333333333 980,216 C 1136.2666666666667,205.86666666666667 1288.1333333333332,202.93333333333334 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ffffff" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
+
+    <div class="fivethContainer">
+      <h2 id="Contact" class="contactMe fw-bold">CONTACT</h2>
+      <div class="container">
+        <div class="linkSosmed">
+          <a
+            class="itemSosmed" href="https://www.linkedin.com/in/almando-dian"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="itemSosmed" href="https://wa.me/6285645886174">
+            <i class="fab fa-whatsapp"></i>
+          </a>          
+          <a class="itemSosmed" href="https://instagram.com/dian_almando"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="itemSosmed" href="https://facebook.com/dn.almndn">
+            <i class="fab fa-facebook"></i>
+          </a>          
+          <a class="itemSosmed" href="mailto:almanddian@gmail.com"
+            ><i class="fab fa-google"></i
+          ></a>
+        </div>
+        <p class="text-center">Created by <a href="#">almando</a></p>
+      </div>
+    </div>
+    <script src="assets/stylesheet/app.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
